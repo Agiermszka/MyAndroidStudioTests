@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>README.md</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #a9b7c6;}
+.s1 { color: #6a8759;}
+.ln { color: #606366; font-weight: normal; font-style: normal; }
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+README.md</font>
+</center></td></tr></table>
+<pre><a name="l1"><span class="ln">1    </span></a><span class="s0"># InstaList comm 
+<a name="l2"><span class="ln">2    </span></a></span>
+<a name="l3"><span class="ln">3    </span></a><span class="s0">Communication project for [</span><span class="s1">InstaList</span><span class="s0">](https://github.com/InstaList/instalist-android) and it's  
+<a name="l4"><span class="ln">4    </span></a>[</span><span class="s1">Server</span><span class="s0">](https://github.com/InstaList/instalist-server).  
+<a name="l5"><span class="ln">5    </span></a></span>
+<a name="l6"><span class="ln">6    </span></a><span class="s0">Currently, InstaList uses a REST-API accepting and creating JSON for transmitting data. The messages 
+<a name="l7"><span class="ln">7    </span></a>can get created and parsed in a easy via [</span><span class="s1">Jackson</span><span class="s0">](https://github.com/FasterXML/jackson) and it's  
+<a name="l8"><span class="ln">8    </span></a>`databind` module. 
+<a name="l9"><span class="ln">9    </span></a></span>
+<a name="l10"><span class="ln">10   </span></a><span class="s0">Classes that can be used for this purpose are located in package  
+<a name="l11"><span class="ln">11   </span></a>`org.noorganization.instalist.comm.message`. 
+<a name="l12"><span class="ln">12   </span></a></span>
+<a name="l13"><span class="ln">13   </span></a><span class="s0">## Usage 
+<a name="l14"><span class="ln">14   </span></a></span>
+<a name="l15"><span class="ln">15   </span></a><span class="s0">Use these classes as a library, for example via gradle. This library is not available in the  
+<a name="l16"><span class="ln">16   </span></a>central repository. But it can be included with a master gradle-project like this: 
+<a name="l17"><span class="ln">17   </span></a></span>
+<a name="l18"><span class="ln">18   </span></a>    <span class="s0">// gradle.settings 
+<a name="l19"><span class="ln">19   </span></a>    include ':instalist-comm' 
+<a name="l20"><span class="ln">20   </span></a></span>
+<a name="l21"><span class="ln">21   </span></a>    <span class="s0">// build.gradle 
+<a name="l22"><span class="ln">22   </span></a>    dependencies { 
+<a name="l23"><span class="ln">23   </span></a>        compile(':instalist-comm') 
+<a name="l24"><span class="ln">24   </span></a>        // ... 
+<a name="l25"><span class="ln">25   </span></a>    } 
+<a name="l26"><span class="ln">26   </span></a></span>
+<a name="l27"><span class="ln">27   </span></a><span class="s0">This works if your master is one directory above this project. 
+<a name="l28"><span class="ln">28   </span></a></span>
+<a name="l29"><span class="ln">29   </span></a><span class="s0">You can create IntelliJ-IDEA compatible project files with: 
+<a name="l30"><span class="ln">30   </span></a></span>
+<a name="l31"><span class="ln">31   </span></a>    <span class="s0">./gradlew idea 
+<a name="l32"><span class="ln">32   </span></a></span>
+<a name="l33"><span class="ln">33   </span></a></pre>
+</body>
+</html>
